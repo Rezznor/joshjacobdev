@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Josh Jacob - Web Developer</title>
+    <title>Josh Jacob - Personal Portfolio</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4de0c291ed.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -47,21 +49,25 @@
     </nav>
 
 
-    <section class="section home-bg" id="home">
+    <section class="section home-bg home" id="home">
         
         <div class="bg-overlay"></div>
+        <div id="particles-js"></div>
+
         <div class="home-table">
             <div class="home-table-center">
-                <div class="container">
+                <div class="container position-relative z-index">
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="text-center header-content mx-auto">
-                                <h4 id="welcome">Welcome</h4>
-                                <h1 class="text-white mb-4"><span class="typed-container"></span></h1>
-                                <ul class="list-group list-group-horizontal">
-                                    <li class="list-group-item">Fullstack Developer</li>
-                                    <li class="list-group-item">Designer</li>
-                                    <li class="list-group-item">Writer</li>
+                                <h2 class="mb-4" id="welcome">Josh Jacob</h2>
+                                <h4 class="text-white mb-4"><span class="typed-container"></span></h4>
+                                <ul class="socials-header">
+                                    <li><a href="https://www.facebook.com/theJacobCreative"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/JacobCreativeCA"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/joshuajacb/"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://github.com/Rezznor"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="mailto:hello@joshjacob.dev"><i class="fas fa-envelope"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -74,6 +80,7 @@
             <a href="#about"><span></span></a>
         </div>
 
+
         <div class="bg-bottom">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 238" enable-background="new 0 0 1920 238" xml:space="preserve">
                 <path fill="#ffffff" d="M0,0c0,0,888.955,418.735,1920,0c-0.5,149.535,0,238,0,238H0V0Z"/>
@@ -83,53 +90,359 @@
 
     </section>
 
-    <section id="about">
+    <section class="ptb-110" id="about">
 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg 8">
+                <div class="col-lg-5">
                     <div class="about_content text-center">
-                        <div class="info">
+                        <div class="about_profile">
                             <img src="img/SB_mario_reznor_smili.jpg" alt="Portfolio Picture">
-                            <h3>Josh Jacob</h3>
+                            <h2>Josh Jacob</h2>
                             <h5>Web Developer</h5>
+                        </div>                        
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about_content">
+                        <div class="about_description">
+                            <p>Hi &#128522</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, 
+                                consequatur, suscipit. Aperiam totam, praesentium? Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, 
+                                consequatur, suscipit. Aperiam totam, praesentium? Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi 
+                                facere perspiciatis doloremque vero rerum inventore, consequatur, suscipit. Aperiam totam, praesentium? Dolore 
+                                porro dolorum animi veritatis maxime alias fugit, rerum perspiciatis eius aperiam ipsam optio explicabo.</p>
+                            
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, 
-                            consequatur, suscipit. Aperiam totam, praesentium? Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
-                            perspiciatis eius aperiam ipsam optio explicabo.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, 
-                            consequatur, suscipit. Aperiam totam, praesentium? Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
-                            perspiciatis eius aperiam ipsam optio explicabo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi 
-                            facere perspiciatis doloremque vero rerum inventore, consequatur, suscipit. Aperiam totam, praesentium? Dolore 
-                            porro dolorum animi veritatis maxime alias fugit, rerum perspiciatis eius aperiam ipsam optio explicabo.</p>
-                        
-                        <ul class="tag_list">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>Javascript</li>
-                            <li>JQuery</li>
-                            <li>PHP</li>
-                            <li>React</li>
-                            <li>Redux</li>
-                            <li>Wordpress</li>
-                            <li>Express</li>
-                            <li>MongoDB</li>
-                            <!-- ADD MORE SKILLS -->
-                        </ul>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+    <section class="ptb-110 bg-light services" id="services">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h2 class="services_title">My <span>Services</span></h2>
+                        <p class="text-muted mx-auto section-subtitle mt-3">Below is a glimpse at what I can do for you and your business.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <div class="text-center single_service rounded p-4 mt-4">
+                        <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="mt-4">
+                            <h5 class="mb-0">Service</h5>
+                            <div class="single_service_border"></div>
+                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center single_service rounded p-4 mt-4">
+                        <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="mt-4">
+                            <h5 class="mb-0">Service</h5>
+                            <div class="single_service_border"></div>
+                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center single_service rounded p-4 mt-4">
+                        <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="mt-4">
+                            <h5 class="mb-0">Service</h5>
+                            <div class="single_service_border"></div>
+                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center single_service rounded p-4 mt-4">
+                        <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="mt-4">
+                            <h5 class="mb-0">Service</h5>
+                            <div class="single_service_border"></div>
+                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center single_service rounded p-4 mt-4">
+                        <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="mt-4">
+                            <h5 class="mb-0">Service</h5>
+                            <div class="single_service_border"></div>
+                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                                perspiciatis eius aperiam ipsam optio explicabo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center single_service rounded p-4 mt-4">
+                        <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="mt-4">
+                            <h5 class="mb-0">Service</h5>
+                            <div class="single_service_border"></div>
+                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum perspiciatis eius aperiam ipsam optio explicabo.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
     </section>
-    <section id="skills"></section>
-    <section id="portfolio"></section>
-    <section id="contact"></section>
+    <section class="ptb-50" id="hire-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h2>I'm available for freelance work!</h2>
+                    </div>
+                    <div class="text-center mt-4"><a href="#" class="btn btn-custom">Hire Me</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ptb-110 bg-light" id="testimonials">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="testimonial_header text-center">
+                        <h2 class="title">Client <span>Testimonials</span></h2>
+                        <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum perspiciatis eius aperiam ipsam optio explicabo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="single_testimonial text-center mx-auto">
+                                <div class="mt-2">
+                                    <div class="testimonial_pic"><img src="img/profile_placeholder.jpg" alt=""></div>
+                                    <p class="testimonial_review text-muted font-italic mt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, consequatur, suscipit.</p>
+                                    <h5><span class="client_name">John Smith, </span><span class="client_company">Company</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_testimonial text-center mx-auto">
+                                <div class="mt-2">
+                                    <div class="testimonial_pic"><img src="img/profile_placeholder.jpg" alt=""></div>
+                                    <p class="testimonial_review text-muted font-italic mt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, consequatur, suscipit.</p>
+                                    <h5><span class="client_name">John Smith, </span><span class="client_company">Company</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_testimonial text-center mx-auto">
+                                <div class="mt-2">
+                                    <div class="testimonial_pic text-center"><img src="img/profile_placeholder.jpg" alt=""></div>
+                                    <p class="testimonial_review text-muted font-italic mt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, consequatur, suscipit.</p>
+                                    <h5><span class="client_name">John Smith, </span><span class="client_company">Company</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light pb-90" id="skills">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="skills_header">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="skills_container text-center">
+
+                        <ul class="tag_list">
+                            <button type="button" class="btn btn-light"><i class="fab fa-html5"></i> HTML5</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-css3-alt"></i> CSS3</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-js-square"></i> Javascript</button>
+                            <button type="button" class="btn btn-light">jQuery</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-php"></i> PHP</button>
+                            <button type="button" class="btn btn-light">Express</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-react"></i> React</button>
+                            <button type="button" class="btn btn-light">Redux</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-wordpress"></i> Wordpress</button>
+                            <button type="button" class="btn btn-light">MongoDB</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-python"></i> Python</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-node"></i> Nodejs</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-java"></i> Java</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-git"></i> Git</button>
+                            <button type="button" class="btn btn-light">C#</button>
+                            <button type="button" class="btn btn-light">C</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-swift"></i> Swift</button>
+                            <button type="button" class="btn btn-light">MySQL</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-bootstrap"></i> Bootstrap</button>
+                            <button type="button" class="btn btn-light">Photoshop</button>
+                            <button type="button" class="btn btn-light"><i class="fab fa-cpanel"></i> cPanel</button>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="stats stats_bg_overlay ptb-90">
+        <div class="container text-white">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single_stat">
+                        <i class="fas fa-clock"></i>
+                        <h3 class="counter">10</h3>
+                        <p>Working Hours</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single_stat">
+                        <i class="fas fa-coffee"></i>
+                        <h3 class="counter">17</h3>
+                        <p>Cups of Coffee Consumed</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single_stat">
+                        <i class="fas fa-gift"></i>
+                        <h3 class="counter">14</h3>
+                        <p>Completed Projects</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single_stat">
+                        <i class="fas fa-user-friends"></i>
+                        <h3 class="counter">6</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ptb-110 contact" id="contact">
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <h2></h2>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="icon"><i class="fab fa-facebook-messenger"></i></div>
+                        <div class="mt-3">
+                            <h5 class="mb-0 contact_detail_title font-weight-bold">Lets Chat</h5>
+                            <p class="text-muted"><a href="#">Facebook Messenger</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="icon"><i class="fas fa-paper-plane"></i></div>
+                        <div class="mt-3">
+                            <h5 class="mb-0 contact_detail_title font-weight-bold">Send Me An Email</h5>
+                            <p class="text-muted"><a href="#">hello@joshjacob.dev</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="mt-3">
+                            <h5 class="mb-0 contact_detail_title font-weight-bold">Lets Get Coffee</h5>
+                            <p class="text-muted">Waterloo, Ontario, Canada</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <div class="contact_form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="name" type="text" class="form-control" id="name" placeholder="Your Name*">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="email" type="text" class="form-control" id="email" placeholder="Your Email*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <input type="text" class="form-control" id="subject" placeholder="Your Subject...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 text-right">
+                                    <input type="submit" class="btn btn-custom" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/counterup2-1.0.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/snow.js"></script>
     <script src="js/index.js"></script>
+    
 
 </body>
 </html>

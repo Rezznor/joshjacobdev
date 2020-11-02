@@ -1,13 +1,41 @@
-var typed = new Typed(".typed-container", {
-    strings: ['I\'m Josh Jacob.^1000', '^400I\'m a Developer,^400', 'a Writer,^400', 'and a Leafs Fan.^400'],
-    typeSpeed: 65,
-    backSpeed: 50,
-    backDelay: 800,
-    startDelay: 1000,
-    loop: true,
 
-  });
+$(document).ready(function() {
+  
+    "use strict";
 
-  $(window).on("scroll", function() {
-      $(window).scrollTop() >= 80 ? $(".sticky").addClass("sticky-active") : $(".sticky").removeClass("sticky-active")
-  });
+    var typed = new Typed(".typed-container", {
+        strings: ['I\'m a Fullstack Developer,^600', 'I\'m a UI/UX Designer,^600', 'I\'m a Writer,^600', 'I\'m a Leafs Fan.^600'],
+        typeSpeed: 65,
+        backSpeed: 30,
+        backDelay: 800,
+        startDelay: 1000,
+        loop: true,
+        smartBackspace: true,
+    
+      });
+    
+      $(window).on("scroll", function() {
+          $(window).scrollTop() >= 80 ? $(".sticky").addClass("sticky-active") : $(".sticky").removeClass("sticky-active")
+      });
+
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+          items: 1,
+          loop: true,
+          margin: 10,
+          autoplay: true,
+          autoplayTimeout: 4000,
+          autoplayHoverPause: true,
+      });
+
+      var counterUp = window.counterUp["default"];
+      var $counters = $(".counter");
+      $counters.each(function (ignore, counter) {
+          counterUp(counter, {
+              duration: 2000,
+              delay: 16
+          });
+      });
+
+});
+
