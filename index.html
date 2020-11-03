@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Josh Jacob - Personal Portfolio</title>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/4de0c291ed.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/dark-theme.css" id="theme" >
 </head>
 <body>
     
@@ -20,40 +19,32 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-        
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#testimonials">Clients</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                
             </div>
         </div>
-
-        <div class="dark-mode-toggle">
-            <a class="light-switch" href="#" ><i class="far fa-moon"></i></a>
-        </div>
+        <button id="theme-toggle" class="far fa-moon"></span></button>
     </nav>
 
-
     <section class="section home-bg home" id="home">
-        
         <div class="bg-overlay"></div>
         <div id="particles-js"></div>
-
         <div class="home-table">
             <div class="home-table-center">
                 <div class="container position-relative z-index">
@@ -67,7 +58,7 @@
                                     <li><a href="https://twitter.com/JacobCreativeCA"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/joshuajacb/"><i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a href="https://github.com/Rezznor"><i class="fab fa-github"></i></a></li>
-                                    <li><a href="mailto:hello@joshjacob.dev"><i class="fas fa-envelope"></i></a></li>
+                                    <li><a href="#contact"><i class="fas fa-envelope"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -75,23 +66,17 @@
                 </div>
             </div>
         </div>
-
         <div id="scroll-anim">
             <a href="#about"><span></span></a>
         </div>
-
-
         <div class="bg-bottom">
             <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 238" enable-background="new 0 0 1920 238" xml:space="preserve">
-                <path fill="#ffffff" d="M0,0c0,0,888.955,418.735,1920,0c-0.5,149.535,0,238,0,238H0V0Z"/>
+                <path d="M0,0c0,0,888.955,418.735,1920,0c-0.5,149.535,0,238,0,238H0V0Z"/>
             </svg>
         </div>
-        
-
     </section>
 
     <section class="ptb-110" id="about">
-
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
@@ -105,7 +90,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about_content">
-                        <div class="about_description">
+                        <div class="about_description pt-30">
                             <p>Hi &#128522</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi facere perspiciatis doloremque vero rerum inventore, 
                                 consequatur, suscipit. Aperiam totam, praesentium? Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
@@ -120,11 +105,9 @@
                     </div>
                 </div>
         </div>
-
     </section>
 
     <section class="ptb-110 bg-light services" id="services">
-
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -136,34 +119,34 @@
             </div>
             <div class="row mt-5">
                 <div class="col-lg-4">
-                    <div class="text-center single_service rounded p-4 mt-4">
+                    <div class="single_service text-center rounded p-4 mt-4">
                         <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
                         <div class="mt-4">
                             <h5 class="mb-0">Service</h5>
                             <div class="single_service_border"></div>
-                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                            <p class="text-muted">Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
                                 perspiciatis eius aperiam ipsam optio explicabo.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="text-center single_service rounded p-4 mt-4">
+                    <div class="single_service text-center rounded p-4 mt-4">
                         <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
                         <div class="mt-4">
                             <h5 class="mb-0">Service</h5>
                             <div class="single_service_border"></div>
-                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                            <p class="text-muted">Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
                                 perspiciatis eius aperiam ipsam optio explicabo.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="text-center single_service rounded p-4 mt-4">
+                    <div class="single_service text-center rounded p-4 mt-4">
                         <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
                         <div class="mt-4">
                             <h5 class="mb-0">Service</h5>
                             <div class="single_service_border"></div>
-                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                            <p class="text-muted">Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
                                 perspiciatis eius aperiam ipsam optio explicabo.</p>
                         </div>
                     </div>
@@ -171,34 +154,34 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="text-center single_service rounded p-4 mt-4">
+                    <div class="single_service text-center rounded p-4 mt-4">
                         <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
                         <div class="mt-4">
                             <h5 class="mb-0">Service</h5>
                             <div class="single_service_border"></div>
-                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                            <p class="text-muted">Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
                                 perspiciatis eius aperiam ipsam optio explicabo.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="text-center single_service rounded p-4 mt-4">
+                    <div class="single_service text-center rounded p-4 mt-4">
                         <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
                         <div class="mt-4">
                             <h5 class="mb-0">Service</h5>
                             <div class="single_service_border"></div>
-                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
+                            <p class="text-muted">Dolore porro dolorum animi veritatis maxime alias fugit, rerum 
                                 perspiciatis eius aperiam ipsam optio explicabo.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="text-center single_service rounded p-4 mt-4">
+                    <div class="single_service text-center rounded p-4 mt-4">
                         <div class="single_service_icon"><i class="fab fa-bootstrap"></i></div>
                         <div class="mt-4">
                             <h5 class="mb-0">Service</h5>
                             <div class="single_service_border"></div>
-                            <p>Dolore porro dolorum animi veritatis maxime alias fugit, rerum perspiciatis eius aperiam ipsam optio explicabo.</p>
+                            <p class="text-muted">Dolore porro dolorum animi veritatis maxime alias fugit, rerum perspiciatis eius aperiam ipsam optio explicabo.</p>
                         </div>
                     </div>
                 </div>
@@ -265,52 +248,6 @@
         </div>
     </section>
 
-    <section class="bg-light pb-90" id="skills">
-
-        <div class="container">
-
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="skills_header">
-                    </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="skills_container text-center">
-
-                        <ul class="tag_list">
-                            <button type="button" class="btn btn-light"><i class="fab fa-html5"></i> HTML5</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-css3-alt"></i> CSS3</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-js-square"></i> Javascript</button>
-                            <button type="button" class="btn btn-light">jQuery</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-php"></i> PHP</button>
-                            <button type="button" class="btn btn-light">Express</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-react"></i> React</button>
-                            <button type="button" class="btn btn-light">Redux</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-wordpress"></i> Wordpress</button>
-                            <button type="button" class="btn btn-light">MongoDB</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-python"></i> Python</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-node"></i> Nodejs</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-java"></i> Java</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-git"></i> Git</button>
-                            <button type="button" class="btn btn-light">C#</button>
-                            <button type="button" class="btn btn-light">C</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-swift"></i> Swift</button>
-                            <button type="button" class="btn btn-light">MySQL</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-bootstrap"></i> Bootstrap</button>
-                            <button type="button" class="btn btn-light">Photoshop</button>
-                            <button type="button" class="btn btn-light"><i class="fab fa-cpanel"></i> cPanel</button>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
     <section class="stats stats_bg_overlay ptb-90">
         <div class="container text-white">
             <div class="row justify-content-center">
@@ -346,8 +283,49 @@
         </div>
     </section>
 
-    <section class="ptb-110 contact" id="contact">
+    <section class="bg-light ptb-90" id="skills">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="skills_header">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="skills_container text-center">
+                        <ul class="tag_list">
 
+                            <button type="button" class="btn btn-dark"><i class="fab fa-html5"></i> HTML5</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-css3-alt"></i> CSS3</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-js-square"></i> Javascript</button>
+                            <button type="button" class="btn btn-dark">jQuery</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-php"></i> PHP</button>
+                            <button type="button" class="btn btn-dark">Express</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-react"></i> React</button>
+                            <button type="button" class="btn btn-dark">Redux</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-wordpress"></i> Wordpress</button>
+                            <button type="button" class="btn btn-dark">MongoDB</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-python"></i> Python</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-node"></i> Nodejs</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-java"></i> Java</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-git"></i> Git</button>
+                            <button type="button" class="btn btn-dark">C#</button>
+                            <button type="button" class="btn btn-dark">C</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-swift"></i> Swift</button>
+                            <button type="button" class="btn btn-dark">MySQL</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-bootstrap"></i> Bootstrap</button>
+                            <button type="button" class="btn btn-dark">Photoshop</button>
+                            <button type="button" class="btn btn-dark"><i class="fab fa-cpanel"></i> cPanel</button>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ptb-110 contact" id="contact">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
@@ -357,7 +335,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row mt-5">
                 <div class="col-lg-4">
                     <div class="text-center">
@@ -387,7 +364,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="row mt-5">
                 <div class="col-lg-12">
                     <div class="contact_form">
@@ -427,13 +403,48 @@
                     </div>
                 </div>
             </div>
-
         </div>
-
     </section>
 
+    <footer class="ptb-110" id="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="footer_description">
+                            <a href="" class="footer_logo"></a>
+                            <p></p>
+                            <ul class="footer_socials">
+                                <li><i class="fa fa-dribbble"></i></li>
+                                <li><i class="fa fa-dribbble"></i></li>
+                                <li><i class="fa fa-dribbble"></i></li>
+                                <li><i class="fa fa-dribbble"></i></li>
+                                <li><i class="fa fa-dribbble"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copyright text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright">
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <div class="scroll-to-top-btn">
+        <span class="fa fa-angle-up"></span>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
