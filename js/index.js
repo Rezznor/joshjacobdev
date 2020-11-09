@@ -3,6 +3,7 @@ $(document).ready(function() {
   
     "use strict";
 
+    // Typed plugin settings
     var typed = new Typed(".typed-container", {
         strings: ['I\'m a Fullstack Developer,^600', 'I\'m a UI/UX Design Enthusiast,^600', 'I\'m a Writer,^600', 'I\'m a Leafs Fan.^600'],
         typeSpeed: 65,
@@ -13,11 +14,16 @@ $(document).ready(function() {
         smartBackspace: true,
     
       });
+
+      
+      $("#working-hours").html((Math.floor(Math.random() * (96 - 16 + 1)) + 16));
+      $("#cups-of-coffee").html((Math.floor(Math.random() * 20) + 1));
     
       $(window).on("scroll", function() {
           $(window).scrollTop() >= 80 ? $(".sticky").addClass("sticky-active") : $(".sticky").removeClass("sticky-active")
       });
 
+      // Owl Carousel plugin settings
       var owl = $('.owl-carousel');
       owl.owlCarousel({
           items: 1,
@@ -28,14 +34,15 @@ $(document).ready(function() {
           autoplayHoverPause: true,
       });
 
-      var counterUp = window.counterUp["default"];
-      var $counters = $(".counter");
-      $counters.each(function (ignore, counter) {
+    // Simple counting-up for stats section
+    var counterUp = window.counterUp["default"];
+    var $counters = $(".counter");
+    $counters.each(function (ignore, counter) {
           counterUp(counter, {
               duration: 2000,
               delay: 16
           });
-      });
+    });
 
       // Select all links with hashes
     $('a[href*="#"]')

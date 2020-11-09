@@ -3,249 +3,11 @@
 /* 2. Header            */
 /* 3. Home              */
 /* 4. About             */
-/* 5. Skills            */
 /* 6. Portfolio         */
 /* 7. Contact           */
-/* 8. Dark Mode?        */
 
-/* ------- 1. Overall Styling ------- */
-@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+/* TO DO: Clean up stylesheet */
 
-body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  overflow-x: hidden;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-}
-.section {
-  padding-top: 0px;
-  padding-bottom: 200px;
-  position: relative;
-  background-color: #fff;
-}
-.section .section-subtitle {
-  max-width: 500px;
-}
-.z-index {
-  z-index: 2;
-}
-/* ------- 1.1 Spacing        ------- */
-.mtb-110 {
-  margin: 110px 0;
-}
-
-.mtb-100 {
-  margin: 100px 0;
-}
-
-.mtb-90 {
-  margin: 90px 0;
-}
-
-.mtb-80 {
-  margin: 80px 0;
-}
-
-.mtb-70 {
-  margin: 70px 0;
-}
-
-.mtb-60 {
-  margin: 60px 0;
-}
-
-.mtb-50 {
-  margin: 50px 0;
-}
-
-.mt-110 {
-  margin: 110px 0 0;
-}
-
-.mt-100 {
-  margin: 100px 0 0;
-}
-
-.mt-90 {
-  margin: 90px 0 0;
-}
-
-.mt-80 {
-  margin: 80px 0 0;
-}
-
-.mt-70 {
-  margin: 70px 0 0;
-}
-
-.mt-60 {
-  margin: 60px 0 0;
-}
-
-.mt-50 {
-  margin: 50px 0 0;
-}
-
-.mt-40 {
-  margin: 40px 0 0;
-}
-
-.mt-30 {
-  margin: 30px 0 0;
-}
-
-.mb-110 {
-  margin-bottom: 110px;
-}
-
-.mb-100 {
-  margin-bottom: 100px;
-}
-
-.mb-90 {
-  margin-bottom: 90px;
-}
-
-.mb-80 {
-  margin-bottom: 80px;
-}
-
-.mb-70 {
-  margin-bottom: 70px;
-}
-
-.mb-60 {
-  margin-bottom: 60px;
-}
-
-.mb-50 {
-  margin-bottom: 50px;
-}
-
-.mb-40 {
-  margin-bottom: 40px;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
-.ptb-110 {
-  padding: 110px 0;
-}
-
-.ptb-100 {
-  padding: 100px 0;
-}
-
-.ptb-90 {
-  padding: 90px 0;
-}
-
-.ptb-80 {
-  padding: 80px 0;
-}
-
-.ptb-70 {
-  padding: 70px 0;
-}
-
-.ptb-60 {
-  padding: 60px 0;
-}
-
-.ptb-50 {
-  padding: 50px 0;
-}
-
-.pt-110 {
-  padding: 110px 0 0;
-}
-
-.pt-100 {
-  padding: 100px 0 0;
-}
-
-.pt-90 {
-  padding: 90px 0 0;
-}
-
-.pt-80 {
-  padding: 80px 0 0;
-}
-
-.pt-70 {
-  padding: 70px 0 0;
-}
-
-.pt-60 {
-  padding: 60px 0 0;
-}
-
-.pt-50 {
-  padding: 50px 0 0;
-}
-
-.pt-40 {
-  padding: 40px 0 0;
-}
-
-.pt-30 {
-  padding: 30px 0 0;
-}
-
-.pb-110 {
-  padding-bottom: 110px;
-}
-
-.pb-100 {
-  padding-bottom: 100px;
-}
-
-.pb-90 {
-  padding-bottom: 90px;
-}
-
-.pb-80 {
-  padding-bottom: 80px;
-}
-
-.pb-70 {
-  padding-bottom: 70px;
-}
-
-.pb-60 {
-  padding-bottom: 60px;
-}
-
-.pb-50 {
-  padding-bottom: 50px;
-}
-
-.pb-40 {
-  padding-bottom: 40px;
-}
-
-.pb-30 {
-  padding-bottom: 30px;
-}
-
-.pr-15 {
-  padding-right: 15px !important;
-}
-
-.pt_right {
-  padding-right: 5px;
-}
 .btn {
   padding: 15px 32px;
   font-size: 14px;
@@ -253,7 +15,6 @@ h6 {
   transition: all 0.5s;
   letter-spacing: 0.6px;
   color: #fff;
-  box-shadow: none !important;
   text-transform: uppercase;
   outline: none !important;
 }
@@ -267,6 +28,11 @@ h6 {
   border-color: #5593ce;
   color: #f3f3f3;
 }
+
+button#theme-toggle:hover {
+  color: #63adf2;
+}
+
 .scroll-to-top-btn {
   background-color: #63adf2;
   border: none;
@@ -292,12 +58,8 @@ h6 {
   transition: all 0.5s ease;
 }
 .scroll-to-top-btn:hover {
-  background-color: #1e212b;
+  background-color: #17181b;
   color: #63adf2;
-}
-.showBtn {
-  opacity: 1;
-  transform: translateY(0);
 }
 .bg-light {
   background-color: #f6f7f8 !important;
@@ -368,8 +130,8 @@ h6 {
   padding-right: 100px;
 }
 
-.nav-container.nav-container.sticky-active #theme-toggle a {
-  color: #000;
+.nav-container.sticky-active button#theme-toggle {
+  color: #17181c;
 }
 
 /* ------- 3. Home            ------- */
@@ -730,4 +492,10 @@ h6 {
 #success_msg h3 {
   color: #0dba26;
   font-size: 22px;
+}
+footer {
+  background-color: #2b2e33;
+}
+footer .copyright {
+  font-size: 14px;
 }
