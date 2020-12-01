@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     // Typed plugin settings
     var typed = new Typed(".typed-container", {
-        strings: ['I\'m a Fullstack Developer,^600', 'I\'m a UI/UX Design Enthusiast,^600', 'I\'m a Writer,^600', 'I\'m a Leafs Fan.^600'],
+        strings: ['I\'m a Fullstack Developer,^600', 'I\'m a UI/UX Design Enthusiast,^600', 'I\'m a Writer,^600', 'I\'m a Leafs fan.^600'],
         typeSpeed: 65,
         backSpeed: 30,
         backDelay: 800,
