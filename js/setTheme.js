@@ -9,7 +9,6 @@ function setTheme() {
     
     btn.addEventListener("click", function() {
     // Swap out the URL for the different stylesheets
-    console.log("clickinlginglin");
     if (theme.getAttribute("href") == "css/light-theme.css") {
         theme.href = "css/dark-theme.css";
         localStorage.setItem("theme", "dark");

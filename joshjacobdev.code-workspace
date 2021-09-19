@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "joshjacobdev"
+		"liveServer.settings.multiRootWorkspaceName": "joshjacobdev",
+		"liveServer.settings.port": 5501
 	}
 }
