@@ -17,7 +17,7 @@ $(document).ready(function() {
 
       
       $("#working-hours").html((Math.floor(Math.random() * (96 - 16 + 1)) + 16));
-      $("#cups-of-coffee").html((Math.floor(Math.random() * 20) + 1));
+      $("#cups-of-coffee").html((Math.floor(Math.random() * 100) + 1));
     
       $(window).on("scroll", function() {
           $(window).scrollTop() >= 80 ? $(".sticky").addClass("sticky-active") : $(".sticky").removeClass("sticky-active")
